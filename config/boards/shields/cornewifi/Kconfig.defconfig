@@ -24,3 +24,5 @@ config SSD1306
 endif # ZMK_DISPLAY
 
 endif
+
+CONFIG_BT_DIS_MODEL="Corne_Wifi"
