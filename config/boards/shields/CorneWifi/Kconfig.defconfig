@@ -13,7 +13,6 @@ if SHIELD_CORNEWIFI_LEFT || SHIELD_CORNEWIFI_RIGHT
 config ZMK_SPLIT
     default y
 
-
 if ZMK_DISPLAY
 
 config I2C

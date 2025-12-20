@@ -1,4 +1,4 @@
-#include "CorneWifi.dtsi"
+#include "cornewifi.dtsi"
 
 &transform {
     col-offset = <6>;
