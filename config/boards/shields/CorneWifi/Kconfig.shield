@@ -1,6 +1,6 @@
 config SHIELD_CORNEWIFI_LEFT
-    def_bool $(shields_list_contains,CorneWifi_left)
+    def_bool $(shields_list_contains,cornewifi_left)
 
 config SHIELD_CORNEWIFI_RIGHT
-    def_bool $(shields_list_contains,CorneWifi_right)
+    def_bool $(shields_list_contains,cornewifi_right)
     

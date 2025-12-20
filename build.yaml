@@ -20,7 +20,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: CorneWifi_left
-    snippet: studio-rpc-usb-uart
+    shield: cornewifi_left
   - board: nice_nano_v2
-    shield: CorneWifi_right
+    shield: cornewifi_right
