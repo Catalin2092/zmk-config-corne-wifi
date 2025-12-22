@@ -1,4 +1,4 @@
-if SHIELD_CORNE_LEFT
+if SHIELD_CORNEWIFI_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "Corne_BT"
@@ -8,7 +8,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_CORNE_LEFT || SHIELD_CORNE_RIGHT
+if SHIELD_CORNEWIFI_LEFT || SHIELD_CORNEWIFI_RIGHT
 
 config ZMK_SPLIT
     default y
@@ -41,3 +41,4 @@ endchoice
 endif # LVGL
 
 endif
+
